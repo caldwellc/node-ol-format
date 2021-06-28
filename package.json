@@ -7,7 +7,7 @@
     "build-index": "shx rm -f build/index.js && npm run build-package && node tasks/generate-index.js",
     "transpile": "shx rm -rf build/ol && shx mkdir -p build/ol && shx cp -rf src/ol build/ol/src && tsc --project config/tsconfig-build.json",
     "generate-types": "tsc --project config/tsconfig-build.json --declaration --declarationMap --emitDeclarationOnly --outdir build/ol/types",
-    "build": "npm run build-index && webpack --config config/webpack-config-legacy-build.js",
+    "build": "npm run build-index && webpack --config config/webpack-config-legacy-build.js"
   },
   "dependencies": {
     "bufferutil": "^4.0.3",
