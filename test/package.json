@@ -1,0 +1,8 @@
+{
+  "name": "node-ol-format-test",
+  "author": "Christopher Caldwell <ccaldwell@caci.com>",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node ./test.js"
+  }
+}

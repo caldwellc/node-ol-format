@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wfs:FeatureCollection xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:watch_warn_adv="http://vm-lnx-gis7app-op6a.ncep.noaa.gov:6080/arcgis/services/watch_warn_adv/MapServer/WFSServer" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" timeStamp="2021-06-23T19:23:02Z" numberMatched="unknown" numberReturned="1" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd http://vm-lnx-gis7app-op6a.ncep.noaa.gov:6080/arcgis/services/watch_warn_adv/MapServer/WFSServer http://idpgis.ncep.noaa.gov/arcgis/services/NWS_Forecasts_Guidance_Warnings/watch_warn_adv/MapServer/WFSServer?service=wfs%26version=2.0.0%26request=DescribeFeatureType">
+  <wfs:member>
+    <watch_warn_adv:CurrentWarnings gml:id="CurrentWarnings.1">
+      <watch_warn_adv:cap_id>urn:oid:2.49.0.1.840.0.f308c1d8acbb9a616fd63ea06e3db72feed209de.002.1</watch_warn_adv:cap_id>
+      <watch_warn_adv:vtec>/O.CON.KTAE.MA.W.0192.000000T0000Z-210623T2000Z/</watch_warn_adv:vtec>
+      <watch_warn_adv:phenom>MA</watch_warn_adv:phenom>
+      <watch_warn_adv:sig>W</watch_warn_adv:sig>
+      <watch_warn_adv:wfo>KTAE</watch_warn_adv:wfo>
+      <watch_warn_adv:event>0192</watch_warn_adv:event>
+      <watch_warn_adv:issuance>2021-06-23T15:19:00-04:00</watch_warn_adv:issuance>
+      <watch_warn_adv:expiration>2021-06-23T16:00:00-04:00</watch_warn_adv:expiration>
+      <watch_warn_adv:onset>2021-06-23T15:19:00-04:00</watch_warn_adv:onset>
+      <watch_warn_adv:ends>2021-06-23T16:00:00-04:00</watch_warn_adv:ends>
+      <watch_warn_adv:url>https://alerts-v2.weather.gov/#/?id=urn:oid:2.49.0.1.840.0.f308c1d8acbb9a616fd63ea06e3db72feed209de.002.1</watch_warn_adv:url>
+      <watch_warn_adv:msg_type>MWS</watch_warn_adv:msg_type>
+      <watch_warn_adv:prod_type>Special Marine Warning</watch_warn_adv:prod_type>
+      <watch_warn_adv:idp_source>current_warnings</watch_warn_adv:idp_source>
+      <watch_warn_adv:idp_subset>default</watch_warn_adv:idp_subset>
+      <watch_warn_adv:idp_filedate>2021-06-23T20:22:05</watch_warn_adv:idp_filedate>
+      <watch_warn_adv:idp_ingestdate>2021-06-23T19:22:26</watch_warn_adv:idp_ingestdate>
+      <watch_warn_adv:idp_current_forecast>0</watch_warn_adv:idp_current_forecast>
+      <watch_warn_adv:idp_time_series>0</watch_warn_adv:idp_time_series>
+      <watch_warn_adv:idp_issueddate xsi:nil="true"></watch_warn_adv:idp_issueddate>
+      <watch_warn_adv:idp_validtime xsi:nil="true"></watch_warn_adv:idp_validtime>
+      <watch_warn_adv:idp_validendtime xsi:nil="true"></watch_warn_adv:idp_validendtime>
+      <watch_warn_adv:idp_fcst_hour>0</watch_warn_adv:idp_fcst_hour>
+      <watch_warn_adv:shape><gml:MultiSurface gml:id="CurrentWarnings.1.pl" srsName="urn:ogc:def:crs:EPSG::3857"><gml:surfaceMember><gml:Polygon gml:id="CurrentWarnings.1.pl.0" srsName="urn:ogc:def:crs:EPSG::3857"><gml:exterior><gml:LinearRing><gml:posList>3512550.867899999 -9336365.6928 3481716.591799997 -9350837.226600001 3506120.916199997 -9394251.828 3518984.069300003 -9382006.6841 3521558.261600003 -9368648.3452 3520271.100299999 -9361969.1757 3525420.528499998 -9351950.421499999 3512550.867899999 -9336365.6928</gml:posList></gml:LinearRing></gml:exterior></gml:Polygon></gml:surfaceMember></gml:MultiSurface></watch_warn_adv:shape>
+    </watch_warn_adv:CurrentWarnings>
+  </wfs:member>
+</wfs:FeatureCollection>
