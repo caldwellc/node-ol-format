@@ -4,7 +4,7 @@ OpenLayers ol.format in a standalone node module.
 This is a port of Open Layers v6.5.1 that only considers parsing/projection capabilities.
 Goal is to utilize this library's format module to convert between various formats in a node server-side application.
 
-## Usage
+OpenLayers BSD-2 License Requirements Below:
 
 Copyright Notices:
 * Copyright 2005-present, OpenLayers Contributors All rights reserved.

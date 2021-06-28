@@ -8,7 +8,6 @@
     "transpile": "shx rm -rf build/ol && shx mkdir -p build/ol && shx cp -rf src/ol build/ol/src && tsc --project config/tsconfig-build.json",
     "generate-types": "tsc --project config/tsconfig-build.json --declaration --declarationMap --emitDeclarationOnly --outdir build/ol/types",
     "build": "npm run build-index && webpack --config config/webpack-config-legacy-build.js",
-    "test": "node test/test.js"
   },
   "dependencies": {
     "bufferutil": "^4.0.3",
@@ -81,5 +80,15 @@
     "webpack-sources": "^2.2.0",
     "worker-loader": "^3.0.8",
     "yargs": "^17.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caldwellc/node-ol-format.git"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caldwellc/node-ol-format/issues"
+  },
+  "homepage": "https://github.com/caldwellc/node-ol-format"
 }
