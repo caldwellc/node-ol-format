@@ -1,4 +1,4 @@
-# node-ol-format
+# ol-format-node
 OpenLayers ol.format in a standalone node module.
 
 This is a port of Open Layers v6.5.1 that only considers parsing/projection capabilities.
