@@ -90,5 +90,8 @@
   "bugs": {
     "url": "https://github.com/caldwellc/node-ol-format/issues"
   },
-  "homepage": "https://github.com/caldwellc/node-ol-format"
+  "homepage": "https://github.com/caldwellc/node-ol-format",
+  "files": [
+    "build"
+  ]
 }
