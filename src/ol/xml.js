@@ -573,7 +573,7 @@ export function getDocument() {
  */
 export function getWindow() {
   if (window_ === undefined) {
-    window_ = (new JSDOM(`...`)).window;
+    window_ = (new JSDOM('', {contentType: 'text/html'})).window;
   }
   return window_;
 }
