@@ -1,7 +1,7 @@
 {
   "name": "ol-format-node",
   "author": "Christopher Caldwell <ccaldwell@caci.com>",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "build-package": "npm run transpile && npm run generate-types && node tasks/prepare-package.js",
     "build-index": "shx rm -f build/index.js && npm run build-package && node tasks/generate-index.js",
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "canvas": "git://github.com/caldwellc/empty-module.git#master",
-    "jsdom": "16.6.0"
+    "jsdom": "15.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
