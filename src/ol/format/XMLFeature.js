@@ -122,7 +122,6 @@ class XMLFeature extends FeatureFormat {
     const features = [];
     for (let n = doc.firstChild; n; n = n.nextSibling) {
       if (n.nodeType === Node.ELEMENT_NODE) {
-        console.log('yup...');
         extend(
           features,
           this.readFeaturesFromNode(/** @type {any} */ (n), opt_options)
