@@ -1,7 +1,7 @@
 {
   "name": "ol-format-node",
   "author": "Christopher Caldwell <ccaldwell@caci.com>",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "scripts": {
     "build-package": "npm run transpile && npm run generate-types && node tasks/prepare-package.js",
     "build-index": "shx rm -f build/index.js && npm run build-package && node tasks/generate-index.js",
@@ -10,7 +10,7 @@
     "build": "npm run build-index && webpack --config config/webpack-config-legacy-build.js"
   },
   "dependencies": {
-    "canvas": "git://github.com/caldwellc/empty-module.git#master",
+    "canvas": "git://github.com/jclark118/empty-module.git#master",
     "jsdom": "15.2.1"
   },
   "devDependencies": {
@@ -80,12 +80,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/caldwellc/node-ol-format.git"
+    "url": "https://github.com/jclark118/node-ol-format.git"
   },
   "keywords": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/caldwellc/node-ol-format/issues"
+    "url": "https://github.com/jclark118/node-ol-format/issues"
   },
-  "homepage": "https://github.com/caldwellc/node-ol-format"
+  "homepage": "https://github.com/jclark118/node-ol-format"
 }
