@@ -80,12 +80,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jclark118/node-ol-format.git"
+    "url": "https://github.com/caldwellc/node-ol-format.git"
   },
   "keywords": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jclark118/node-ol-format/issues"
+    "url": "https://github.com/caldwellc/node-ol-format/issues"
   },
-  "homepage": "https://github.com/jclark118/node-ol-format"
+  "homepage": "https://github.com/caldwellc/node-ol-format"
 }
