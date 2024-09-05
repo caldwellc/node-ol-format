@@ -10,7 +10,7 @@
     "build": "npm run build-index && webpack --config config/webpack-config-legacy-build.js"
   },
   "dependencies": {
-    "canvas": "git://github.com/jclark118/empty-module.git#master",
+    "canvas": "git://github.com/caldwellc/empty-module.git#master",
     "jsdom": "15.2.1"
   },
   "devDependencies": {
