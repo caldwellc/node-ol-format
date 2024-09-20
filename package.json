@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "canvas": "git://github.com/caldwellc/empty-module.git#master",
-    "jsdom": "15.2.1"
+    "jsdom": "25.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
@@ -30,7 +30,6 @@
     "clean-css-cli": "5.3.0",
     "copy-webpack-plugin": "^9.0.0",
     "coverage-istanbul-loader": "^3.0.5",
-    "coveralls": "3.1.0",
     "es-main": "^1.0.2",
     "eslint": "7.29.0",
     "@types/estree": "0.0.48",
