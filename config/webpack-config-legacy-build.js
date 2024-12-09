@@ -5,6 +5,12 @@ module.exports = {
   devtool: 'source-map',
   mode: 'production',
   target: ['node'],
+  externals: [
+    {
+      'utf-8-validate': 'commonjs utf-8-validate',
+      bufferutil: 'commonjs bufferutil',
+    },
+  ],
   resolve: {
     alias: {
       ol: path.resolve('./build/ol'),
